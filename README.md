@@ -1,7 +1,7 @@
 # aimlmid2026_n_karamnishvili25
 Midterm exam in AI and Machine Learning
 
-<<<<<<< HEAD
+
 # assignment 1, Finding the correlation
 The purpose of this analysis is to measure the strength and direction of the linear relationship between two numerical variables, x and y, using the Pearson correlation coefficient.
 
@@ -79,7 +79,7 @@ r = cov / sigma
 Step 6: Pearson Correlation Coefficient
 r =  -0.6554845380710971
 r ≈ −0.65
->>>>>>> 9151765df0c98cf17ab956d8112ab45efc14603f
+
 
 The value of r lies between -1 and 1 and indicates a moderate negative linear correlation
 
@@ -87,7 +87,7 @@ As x increases, y tends to decrease
 
 please view correlation visualisation image
 
-<<<<<<< HEAD
+
 # assignment 2, Spam email detection
 
 
@@ -100,13 +100,13 @@ The model is trained on 70% of the dataset and validated on the remaining 30%. I
 
 2. Data Loading and Processing
 
-The dataset is stored in a CSV file (spam.csv) and loaded using Python’s pandas library.
+The dataset is stored in a CSV file (n_karamnishvili25_86295.csv) and loaded using Python’s pandas library.
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
 # Load dataset
-data = pd.read_csv("spam.csv")
+data = pd.read_csv("n_karamnishvili25_86295.csv")
 
 # Define features and target
 X = data[["words", "links", "capital_words", "spam_word_count"]]
@@ -144,9 +144,9 @@ print("Intercept:", model.intercept_)
 
 Coefficients Explanation:
 
-Positive coefficient → increases likelihood of spam
+Positive coefficient : increases likelihood of spam
 
-Negative coefficient → decreases likelihood of spam
+Negative coefficient : decreases likelihood of spam
 
 Example: A positive coefficient for spam_word_count means emails with more spam words are more likely classified as spam.
 
@@ -292,5 +292,5 @@ Model evaluation using a confusion matrix, accuracy score, and visualizations sh
 Manually composed emails demonstrate how the model interprets feature values and classifies new inputs.
 =======
 
-# assignment 2, Spam email detection
->>>>>>> 9151765df0c98cf17ab956d8112ab45efc14603f
+
+
